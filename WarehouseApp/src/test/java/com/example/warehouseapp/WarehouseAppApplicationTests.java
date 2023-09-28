@@ -1,10 +1,10 @@
-package com.warehouseapp.warehosueapp;
+package com.example.warehouseapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WarehosueAppApplicationTests {
+class WarehouseAppApplicationTests {
 
 	@Test
 	void contextLoads() {

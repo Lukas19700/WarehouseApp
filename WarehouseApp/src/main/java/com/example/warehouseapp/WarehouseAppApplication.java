@@ -1,13 +1,13 @@
-package com.warehouseapp.warehosueapp;
+package com.example.warehouseapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WarehosueAppApplication {
+public class WarehouseAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WarehosueAppApplication.class, args);
+		SpringApplication.run(WarehouseAppApplication.class, args);
 	}
 
 }

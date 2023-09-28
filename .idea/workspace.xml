@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4e4f57-10b6-4b03-8d68-ebcda007237c" name="Changes" comment="" />
+    <list default="true" id="1b4e4f57-10b6-4b03-8d68-ebcda007237c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WarehouseApp/src/main/java/com/warehouseapp/repositories/ItemRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarehouseApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/java/com/warehouseapp/warehosueapp/WarehosueAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/src/main/java/com/warehouseapp/WarehosueAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/java/com/warehouseapp/warehosueapp/controllers/WarehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/src/main/java/com/warehouseapp/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/java/com/warehouseapp/warehosueapp/models/WarehouseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/java/com/warehouseapp/warehosueapp/repositories/WarehouseRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/java/com/warehouseapp/warehosueapp/services/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/src/main/java/com/warehouseapp/services/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarehosueApp/src/test/java/com/warehouseapp/warehosueapp/WarehosueAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/WarehouseApp/src/test/java/com/warehouseapp/warehosueapp/WarehosueAppApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,9 +52,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/lukas/OneDrive/Počítač/ForRepositories/WarehouseApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.warehouseapp.models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\OneDrive\Počítač\ForRepositories\WarehouseApp\WarehosueApp\src\main\java\com\warehouseapp\" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,10 +76,23 @@
       <option name="presentableId" value="Default" />
       <updated>1695887688711</updated>
       <workItem from="1695887690263" duration="178000" />
+      <workItem from="1695898554104" duration="42000" />
+      <workItem from="1695898602582" duration="631000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
