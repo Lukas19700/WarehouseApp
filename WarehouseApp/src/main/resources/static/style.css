@@ -1,0 +1,10 @@
+#editBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  min-width: 200vh;
+  margin: 0;
+}
+

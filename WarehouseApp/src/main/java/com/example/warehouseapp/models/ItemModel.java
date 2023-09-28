@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "warehouse")
 public class ItemModel {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long ID;

@@ -3,14 +3,11 @@ package com.example.warehouseapp.controllers;
 import com.example.warehouseapp.models.ItemModel;
 import com.example.warehouseapp.services.ItemService;
 import java.util.List;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -46,6 +43,7 @@ public class ItemController {
     itemService.deleteItem(ID);
     return "redirect:/home";
   }
+
   @GetMapping("/editItem/{ID}")
   public String getEditItem(@PathVariable(name = "ID") Long ID, Model model) {
     ItemModel item = itemService.findByID(ID);
@@ -58,6 +56,7 @@ public class ItemController {
     itemService.updateItem(ID, updatedItem);
     return "redirect:/home";
   }
+
   @PostMapping("/updateAmount/{ID}")
   public String updateItemAmount(
     @PathVariable(name = "ID") Long ID,
@@ -67,7 +66,7 @@ public class ItemController {
 
     if (existingItem != null) {
       existingItem.setAmount(newAmount);
-      itemService.updateItem(ID,existingItem);
+      itemService.updateItem(ID, existingItem);
     }
 
     return "redirect:/home";

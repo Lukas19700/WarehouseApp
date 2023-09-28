@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ItemRepo extends JpaRepository<ItemModel, Long> {
-ItemModel findByID(Long ID);
+
+  ItemModel findByID(Long ID);
 }
